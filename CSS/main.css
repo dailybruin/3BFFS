@@ -1,1 +1,11 @@
+img {
+	float: left;
+	width: 28%;
+	height: auto;
+	margin: 2%;
 
+}
+
+.bio {
+	margin:5%;
+}
