@@ -1,6 +1,14 @@
-body {
+img {
+	float: left;
+	width: 28%;
+	height: auto;
+	margin: 2%;
 
 }
+
+.bio {
+	margin:5%;
+}}
 
 .section p {
     margin-left: 50px;
