@@ -7,6 +7,10 @@
 //
 
 $(document).ready(function() {
-    // Initialize fullpage
-    $('#fullpage').fullpage();
+    $('#fullpage').fullpage({
+    	anchors:['firstPage', 'secondPage', 'thirdPage'],
+    	scrollOverflow: true,
+    	continuousVertical: false,
+    	slidesNavigation: true
+    });
 });
