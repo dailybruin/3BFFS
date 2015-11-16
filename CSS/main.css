@@ -1,3 +1,11 @@
+#headersection {
+	background-image: url('../photos/AYU_9589.jpg'); 
+	background-size: cover; 
+	background-repeat: no-repeat;
+}
+
+
+
 .bio img {
 	float: left;
 	width: 28%;
@@ -17,19 +25,35 @@
 }
 
 body {
-	background-color: #fffee2;
+	background-color: #e2ebff;
+	font-family: 'Roboto', sans-serif;
 }
 
 #logo {
 	margin-top: 20rem;
     position: static;
-	background-color: #fffee2;
+	background-color: #e2ebff;
 	max-width: 45%;
-	opacity: 0.76;
+	opacity: 0.9;
 }
 
 #prime {
 	margin-left: 1rem;
 	max-width: 15%;
 
+}
+
+
+@media only screen and (max-width: 64em) {
+	#headersection {
+		background-image: url('../photos/AYU_9610.jpg');
+	}
+	#logo {
+		max-width: 100%;
+		margin-top: 0px;
+		margin-bottom: 95%;
+	}
+	#prime {
+		margin-left: 30%;
+	}
 }
