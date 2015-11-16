@@ -28,6 +28,8 @@ body {
 	opacity: 0.76;
 }
 
-#image {
+#prime {
+	margin-left: 1rem;
+	max-width: 15%;
 
 }
