@@ -5,6 +5,17 @@
 }
 
 
+.credit {
+    /*font-size: 1.1rem;
+    display: block;
+    padding-top: 8em;
+    padding-bottom: 4em;*/
+    color: white;
+    float: left;
+    padding-left: 2em;
+    padding-top: .5em;
+    font-size: 13px;
+}
 
 .bio img {
 	float: left;
