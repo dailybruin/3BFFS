@@ -4,6 +4,12 @@
 	background-repeat: no-repeat;
 }
 
+.flexslider {
+     max-width: 50%; 
+     height: 70em;
+     /*height: 748px; 
+     display: block;*/
+}
 
 .credit {
     /*font-size: 1.1rem;
