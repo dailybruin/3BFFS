@@ -4,7 +4,24 @@
 	background-repeat: no-repeat;
 }
 
+.flexslider {
+     max-width: 50%; 
+     height: 70em;
+     /*height: 748px; 
+     display: block;*/
+}
 
+.credit {
+    /*font-size: 1.1rem;
+    display: block;
+    padding-top: 8em;
+    padding-bottom: 4em;*/
+    color: white;
+    float: left;
+    padding-left: 2em;
+    padding-top: .5em;
+    font-size: 13px;
+}
 
 .bio img {
 	float: left;
@@ -56,4 +73,23 @@ body {
 	#prime {
 		margin-left: 30%;
 	}
+}
+
+.my-gallery {
+  width: 100%;
+  float: left;
+}
+.my-gallery img {
+  width: 100%;
+  height: auto;
+}
+.my-gallery figure {
+  display: block;
+  float: left;
+  margin: 0 5px 5px 0;
+  width: auto;
+  height: auto;
+}
+.my-gallery figcaption {
+  display: none;
 }
